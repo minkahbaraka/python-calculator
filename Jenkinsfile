@@ -16,7 +16,7 @@ pipeline {
 
         stage ("Build") {
             steps {
-               sh echo "This is a build step"
+               echo "This is a build step"
             }
         }
     }
